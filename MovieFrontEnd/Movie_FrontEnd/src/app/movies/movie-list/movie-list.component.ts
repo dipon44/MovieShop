@@ -13,9 +13,11 @@ export class MovieListComponent implements OnInit {
   ngOnInit(): void {
 
   }
-
   @Input()
   movies: any;
  // movies: { title: string; realeaseDate: Date; price: number; }[];
+  remove(index:number){
+    this.movies.splice(index, 1);
 
+  }
 }

@@ -12,6 +12,7 @@
 <div *ngFor="let movie of movies; let index= index" class="movie-container">
       <div>
           ({{index+1}})  {{movie.title}}
+          <button style="margin-right: 1rem;" (click)="remove(index)">Remove</button>
       </div>
     <div>
         {{movie.realeaseDate}}
