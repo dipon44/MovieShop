@@ -1,0 +1,10 @@
+p
+{
+    color:blueviolet;
+}
+
+.movie-container{
+        border: 1px solid black;
+        margin-bottom: 1rem;
+        padding:1rem;
+}

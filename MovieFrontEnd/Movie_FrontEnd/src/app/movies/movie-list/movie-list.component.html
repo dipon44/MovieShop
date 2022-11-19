@@ -1,0 +1,22 @@
+
+
+
+<img 
+    *ngIf="!movies"
+    src="https://upload.wikimedia.org/wikipedia/commons/b/b1/Loading_icon.gif?20151024034921"/>
+
+      <div *ngIf="movies?.length === 0">
+        There are no records to display.
+      </div>
+      
+<div *ngFor="let movie of movies; let index= index" class="movie-container">
+      <div>
+          ({{index+1}})  {{movie.title}}
+      </div>
+    <div>
+        {{movie.realeaseDate}}
+    </div>
+    <div>
+        {{movie.price}}
+    </div>
+</div>
