@@ -18,6 +18,6 @@ export class MovieListComponent implements OnInit {
  // movies: { title: string; realeaseDate: Date; price: number; }[];
   remove(index:number){
     this.movies.splice(index, 1);
-
+      
   }
 }

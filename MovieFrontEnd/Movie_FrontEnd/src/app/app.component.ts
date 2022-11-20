@@ -24,10 +24,10 @@ export class AppComponent implements OnInit{
       price: 70.9
     }];
 
-
+    // this.moviesFutureRelease[];
     this.moviesFutureRelease=[{
       title: 'Fast & Furious 7',
-      realeaseDate: new Date(),
+      realeaseDate: new Date(), 
       price: 50.9
     },
     {

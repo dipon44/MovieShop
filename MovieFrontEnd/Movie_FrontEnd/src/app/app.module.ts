@@ -4,11 +4,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MovieListComponent } from './movies/movie-list/movie-list.component';
+import { GenericListComponent } from './utilities/generic-list/generic-list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    MovieListComponent
+    MovieListComponent,
+    GenericListComponent
   ],
   imports: [
     BrowserModule,
@@ -18,3 +20,4 @@ import { MovieListComponent } from './movies/movie-list/movie-list.component';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
